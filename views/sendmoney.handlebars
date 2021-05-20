@@ -1,0 +1,20 @@
+<div class="sendmoney">
+    <h1>Transactions</h1>
+    <hr class="rounded">
+    <form action="/transaction" method="POST">
+        <label for="sender">Senders AC No.</label><br>
+        <input type="text" name="sender" id="sender"><br>
+        <label for="receiver"><br> Receiver's Ac No.</label><br>
+        <input type="text" name="receiver" id="receiver"><br>
+        <label for="amount"><br> Amount: </label><br>
+        <input type="text" name="amount" id="amount"><br>
+        <br>
+
+        <button class="btn btn-primary">Submit</button>
+    </form>
+    {{#if check}}
+    <div class="alert success">
+        {{success}}
+    </div>
+    {{/if}}
+</div>

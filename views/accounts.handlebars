@@ -1,0 +1,18 @@
+<section id="ac" class="accounts">
+  <h1>Customers</h1>
+
+  {{#each customer}}
+  <div class="cards" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Name: {{Name}}</h5>
+      <p class="card-text">Email: {{Email}} <br>
+        Balance: {{CurrentBal}}</p>
+      <p class="card-text">Account Number: {{AccountNo}}</p>
+    </div>
+  </div>
+
+  {{else}}
+  <p>No customers found in database</p>
+  {{/each}}
+
+</section>

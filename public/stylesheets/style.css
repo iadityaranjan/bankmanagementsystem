@@ -1,0 +1,113 @@
+
+.contact h1,h2,h3,p{
+  margin-left: 5px;  
+}
+.navbar-brand{
+  color:#fff;
+}
+.nav-link{
+  color:#fff;
+}
+.feedbackcss form{
+  margin-left: 5px;
+  color: #fff;
+  padding-top: 20px;
+
+        
+  
+}
+
+.feedbackcss{
+  background-image: url('/images/homepage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+#feedback{
+  width: 300px;
+  height: 85px;
+ 
+}
+
+.contact h1, h2, h3, p{
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0.938);
+  }
+
+.contact{
+  padding-top: 20px;
+  background-image: url('/images/customercare.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: cover; */
+  width: 100%;
+  height: 100vh;
+        
+}
+
+.container-fluids p, h1{
+  color: rgba(0, 0, 0, 0.938);
+  margin-left: 5px;
+}
+
+.container-fluids{
+  background-image: url('/images/homepage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.accounts p, h1{
+  margin-left: 5px;
+}
+
+.cards{
+  margin-left: 5px;
+}
+
+.accounts{
+  background-image: url('/images/homepage.jpg');
+  top: 0px;
+  bottom: 0px;
+  background-repeat: no-repeat;
+  /* position: absolute; */
+  overflow-x: scroll;
+
+  
+}
+
+.card-body{
+  background-color: rgba(17, 17, 29, 0.884);
+  color: #fff;
+  margin-bottom: 3px;
+  max-width: 100%;
+
+}
+
+.card-body p{
+  color: #fff;
+
+}
+
+.sendmoney form{
+  margin-left: 5px;
+}
+.sendmoney{
+  background-image: url('/images/homepage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.alert{
+  font-size: 25px;
+
+}
